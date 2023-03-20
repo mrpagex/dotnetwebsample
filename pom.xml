@@ -38,17 +38,6 @@
   <properties>
     <sonar.organization>mrpagex</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    <sonar.login>bee70cc2cc8ce4383212113cac20af2c38f24a41</sonar.login>
+    <sonar.login></sonar.login>
     <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
   </properties>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.9.0.2155</version>
-      </plugin>
-    </plugins>
-  </build>
-</project>
